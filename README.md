@@ -77,17 +77,17 @@ inceledik. Örnek senaryolar :
 • Senaryo 1: Ürün (Product) sütununda %60 ve üzeri benzer olan kayıtları
 ekranda gösteriniz.
 
-![](./x5rtz3wr.png){width="3.5in"
-height="1.7916666666666667in"}
+![](images/x5rtz3wr.png)
 
 
 
-![](./gj0i31p0.png){width="3.3645833333333335in"
-height="2.1666666666666665in"}• Senaryo 2: Aynı ürünler (Product) için %
-70 ve üzeri benzerlikteki konuları (Issue) içeren Şirket (Company)
-isimlerini ekranda
-gösteriniz.![](./ikgkfmul.png){width="3.3020833333333335in"
-height="2.3645833333333335in"}
+
+
+• Senaryo 2: Aynı ürünler (Product) için %70 ve üzeri benzerlikteki konuları (Issue) içeren Şirket (Company)
+isimlerini ekrandagösteriniz.
+
+
+
 
 • Senaryo 3: 'Complaint Id' = 3198084 olan şikayet kaydı için % 50 ve
 üzeri benzerlikteki konuları (issue) içeren kayıtları ekranda
@@ -109,10 +109,15 @@ isterleirn çalışması sonucunda hangi bilginin basılmasını istiyorsak o
 sütunu seçiyoruz. En sonunda "onayla" butonuna bastığımızda sonuç
 tablosu ve çalışma zamanı tablosu önümüze gelecektir.
 
+![](images/ikgkfmul.png)
+
 Senaryo 3 için, yeniden temel olan 3 isteri girdikten sonra açılacak
 olan küçük pencerede ana arayüzde karşılaştırmak istenen sütundaki
 istenen verinin id si girilip "onayla" butonuna basıp sonuçları
 görebilmekteyiz.
+
+![](images/gj0i31p0.png)
+
 
 3.Aşama: Arayüzden girilen thread sayısınca thread oluşturulup
 databasede istenen verilerin filtrelendiği bir algoritma kuruldu.
@@ -131,25 +136,25 @@ Oluşturulan Classlar :
 >
 > • Scenario_2.java • Scenario_3.java • Task_1.java
 >
-> •      Task_2.java •      Task_3.java
+> • Task_2.java 
+> 
+> • Task_3.java
 >
 > • ThreadTime.java
 
 Kullanılan programlar: Eclipse, Mysql
 
 > **SÖZDE** **KOD**
->
-> 1-BAŞLA
->
-> 2-Thread sayısını oku
->
-> 3-Benzerlik oranını oku
->
-> 4-Karşılaştırılmak istenen sütunu oku
+
+ 1-BAŞLA
+
+ 2-Thread sayısını oku
+
+ 3-Benzerlik oranını oku
+ 
+ 4-Karşılaştırılmak istenen sütunu oku
 
 5-EĞER 1.butona tıklandıysa GİT satır
-6![](./3nuu0gym.png){width="3.4895833333333335in"
-height="1.6354166666666667in"}
 
 6- Senaryo_1 ve Task_1 classlarını çalıştır GİT satır 11
 
@@ -169,36 +174,30 @@ height="1.6354166666666667in"}
 
 14-BİTİR
 
-> ![](./aduskzkw.png){width="3.5in"
-> height="1.6354166666666667in"}**III.** **DENEYSEL** **SONUÇLAR**
+> **III.** **DENEYSEL** **SONUÇLAR**
 
-Bu tür programlamada birden çok iş parçacığı aynı anda çalışır. Çok iş
-parçacıklı model, sorgulamalı olay döngüsü kullanmaz. CPU zamanı boşa
-harcanmaz.Boşta kalma süresi minimumdur. Daha verimli programlarla
-sonuçlanır. Herhangi bir nedenle bir iş parçacığı duraklatıldığında,
-diğer iş parçacıkları normal şekilde çalışır.
+![](images/aduskzkw.png)
+
+![](images/3nuu0gym.png)
+
+
 
 > **KAYNAKLAR**
 
 ● https://mertmekatronik.com/thread-ve-multithread-nedir
 
-●https://www.tutorialspoint.com/operating_system/os
-\_multi_threading.html
+● https://www.tutorialspoint.com/operating_system/os\_multi_threading.html
 
 ● https://www.javatpoint.com/multithreading-in-java
 
-●
-https://totalview.io/blog/multithreading-multithreaded-applications#:\~:text=Multithreading%20is%20a%20m
-odel%20of,to%20their%20own%20CPU%20core.
+● https://totalview.io/blog/multithreading-multithreaded-applications#:\~:text=Multithreading%20is%20a%20model%20of,to%20their%20own%20CPU%20core.
 
-● https://www.geeksforgeeks.org/multithreading-python-set-1/
-[●[https://stackoverflow.com/questions/33944872/impo]{.underline}](https://stackoverflow.com/questions/33944872/import-big-csv-file-into-mysql)
-[[rt-big-csv-file-into-mysql]{.underline}](https://stackoverflow.com/questions/33944872/import-big-csv-file-into-mysql)
+● https://stackoverflow.com/questions/33944872/import-big-csv-file-into-mysql)
 
-●Intro to Java Programming, Comprehensive Version (10th Edition) Y.
+● Intro to Java Programming, Comprehensive Version (10th Edition) Y.
 Daniel Liang
 
-●Veritabanı Mantığı Kerem Köseoğlu
+● Veritabanı Mantığı Kerem Köseoğlu
 
 > **IV.** **SONUÇ**
 
@@ -209,3 +208,8 @@ Multithreading (çok iş parçacıklı çalışma), bir merkezi işlem biriminin
 (CPU) (veya çok çekirdekli bir işlemcideki tek bir çekirdeğin) aynı anda
 işletim sistemi tarafından desteklenen birden çok yürütme iş parçacığı
 sağlama yeteneğidir.
+Bu tür programlamada birden çok iş parçacığı aynı anda çalışır. Çok iş
+parçacıklı model, sorgulamalı olay döngüsü kullanmaz. CPU zamanı boşa
+harcanmaz.Boşta kalma süresi minimumdur. Daha verimli programlarla
+sonuçlanır. Herhangi bir nedenle bir iş parçacığı duraklatıldığında,
+diğer iş parçacıkları normal şekilde çalışır.
