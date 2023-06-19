@@ -1,6 +1,8 @@
 
 # Detection of Similar Records with Multithreading in Big Data (Büyük Veride Multithreading ile Benzer Kayıtların Tespit Edilmesi)
 
+## Proje Raporu ve daha fazla bilgi için Proje Raporu.pdf
+
 ***Müşteri*** ***şikayetleri*** ***kayıtlarının*** ***tutulduğu***
 ***bir*** ***veri*** ***seti*** ***içerisindeki*** ***benzer***
 ***kayıtlar*** ***tespit*** ***edilecek*** ***ve*** ***tespit***
